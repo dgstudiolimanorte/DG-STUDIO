@@ -10,7 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="styles.css">
+    <!-- Hojas de Estilo Separadas para Máximo Rendimiento -->
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/home.css">
 </head>
 <body>
 
@@ -98,42 +100,90 @@
         📍 Base operativa en <span>Lima Norte</span>. Escalando negocios en <span>Gamarra</span> y todos los polos comerciales de Lima.
     </div>
 
+    <!-- Franja de Autoridad B2B -->
+    <section class="trust-banner reveal">
+        <p>INFRAESTRUCTURA DIGITAL CONFIADA POR:</p>
+        <div class="logos-grid">
+            <span>Corporación Eguizabal</span>
+            <span>Servicios G. Guerrero</span>
+            <span>Pequeños Líderes</span>
+            <span>Comercial Anchash</span>
+            <span>Cevicheria El Buque</span>
+        </div>
+    </section>
+
     <section id="impacto" class="portfolio">
         <div class="portfolio-header reveal">
             <h2>Evidencia de <span>Impacto Comercial</span></h2>
-            <p>Resultados auditables y arquitecturas escalables. Esto es lo que hacemos por los negocios que confían en nosotros.</p>
+            <p>Resultados auditables y arquitecturas escalables. No vendemos páginas, construimos activos de conversión.</p>
         </div>
 
         <div class="grid-casos">
             
+            <!-- CASO 1: B2B PESADO -->
             <div class="card-caso reveal">
-                <div class="caso-etiqueta">B2B / Infraestructura</div>
+                <div class="caso-etiqueta">B2B / INFRAESTRUCTURA</div>
                 <h3>Servicios Generales GUERRERO</h3>
-                <p class="caso-descripcion">Diseño de infraestructura web desde cero, automatización de canales y optimización de perfil local para captar clientes corporativos y obras pesadas.</p>
+                <p class="caso-descripcion">Arquitectura web desde cero y automatización de canales. Optimización de SEO Local enfocada en captar <strong>obras pesadas y clientes corporativos</strong> en Comas y Lima Norte.</p>
                 <div class="caso-enlaces">
                     <a href="https://serviciosgeneralesguerrero.netlify.app/" target="_blank" class="link-externo">Ver Web en Producción →</a>
-                    <a href="https://maps.app.goo.gl/9iDrsXqkJbn64cv79?g_st=ac" target="_blank" class="link-externo">Auditar Google Maps →</a>
+                    <div class="marca-media">
+                      <img src="assets/img/clientes/serviciosguerrero.png" class="marca-img" alt="Servicios Generales Guerrero">
+                    </div>
                 </div>
             </div>
 
+            <!-- CASO 2: SEO LOCAL MULTIPROYECTO -->
             <div class="card-caso reveal">
-                <div class="caso-etiqueta">Retail / Contenido</div>
-                <h3>EDUFLEX (Herramientas Didácticas)</h3>
-                <p class="caso-descripcion">Lanzamiento y posicionamiento estratégico en búsquedas locales, complementado con producción de contenido audiovisual corporativo para ventas mayoristas.</p>
+                <div class="caso-etiqueta">TRÁFICO A TIENDA FÍSICA</div>
+                <h3>Dominio Local (Gastronomía y Ferretería)</h3>
+                <p class="caso-descripcion">Ingeniería de geolocalización para dominar búsquedas locales. Auditoría y atracción de tráfico físico directo para <strong>Cevichería El Buque</strong> y <strong>Comercial Ancash</strong>.</p>
                 <div class="caso-enlaces">
-                    <a href="https://maps.app.goo.gl/oCcQg4agRrhNUwer8" target="_blank" class="link-externo">Auditar Google Maps →</a>
+                    <a href="https://maps.app.goo.gl/ZWuaPsjEoVfmYpNLA" target="_blank" class="link-externo">Auditar "El Buque" →</a>
+                    <a href="https://maps.app.goo.gl/zLKvm3PWeSH8gTFr5?g_st=ac" target="_blank" class="link-externo">Auditar "Comercial Anchash" →</a>
+                   <div class="marca-media">
+                     <img src="assets/img/clientes/buqueycomercial.png" class="marca-img" alt="Dominio Local">
+                   </div>                       
                 </div>
             </div>
 
-            <div class="card-caso reveal">
-                <div class="caso-etiqueta">Tráfico a Tienda Física</div>
-                <h3>Optimización SEO Local Multiproyecto</h3>
-                <p class="caso-descripcion">Auditoría de geolocalización y atracción de tráfico físico para sector gastronómico ("Cevichería El Buque") y sector ferretero ("Comercial Ancash").</p>
-                <div class="caso-enlaces">
-                    <a href="https://maps.app.goo.gl/ZWuaPsjEoVfmYpNLA" target="_blank" class="link-externo">Ver "El Buque" →</a>
-                    <a href="https://maps.app.goo.gl/id7yZyBm2UBcchrt6?g_st=ac" target="_blank" class="link-externo">Ver "Comercial Ancash" →</a>
+            <!-- CASO 3: ECOSISTEMA CORPORATIVO (TARJETA ANCHA CON ENLACE AL CASO DE ÉXITO EXCLUSIVO) -->
+            <div class="card-caso caso-wide reveal">
+                <div class="caso-etiqueta">GESTIÓN DE ECOSISTEMA CORPORATIVO</div>
+                <h3>Corporación Eguizabal (4 Unidades de Negocio)</h3>
+                <p class="caso-descripcion">Desarrollo y gestión integral de infraestructura digital multimarca para dominar nichos de venta mayorista e institucional:</p>
+                <ul class="caso-lista-metricas">
+                    <li><strong>Eduplas (Plástico):</strong> Tracción audiovisual masiva (~10,000 vistas) generando leads e intención de compra geolocalizada por docentes.</li>
+                    <li><strong>Textiflex (Industrial):</strong> Estructuración digital para fabricante por volumen, capacitado para licitaciones estatales (Cuna Más).</li>
+                    <li><strong>Eduflex (Madera):</strong> Catálogo digital y posicionamiento estratégico en búsquedas locales.</li>
+                    <li><strong>Dulce y Rebelde:</strong> Reapertura de marca gastronómica y presencia digital en zona de influencia.</li>
+                </ul>
+                <div class="caso-enlaces" style="margin-top: 20px;">
+                    <a href="casos/eguizabal.html" class="link-externo">Ver Caso Corporativo →</a>
                 </div>
             </div>
+
+            <!-- CASO 4: HIPERLOCAL EDUCATIVO -->
+              <div class="card-caso reveal">
+                <div class="caso-etiqueta">Infraestructura y SEO Local</div>
+                   <h3>Nido "Pequeños Líderes"</h3>
+                    <p class="caso-descripcion">Despliegue técnico de canales digitales y estrategia de posicionamiento hiperlocal en Google Maps para educación temprana. Configuración base optimizada para interceptar intenciones de búsqueda en un radio geográfico específico, transfiriendo la autonomía operativa al equipo interno del cliente.</p>                          
+    
+                   <ul class="caso-lista-metricas" style="margin-bottom: 25px;">
+                     <li><strong>Ingeniería de Canales:</strong> Configuración estructural y branding técnico de redes sociales institucionales desde cero.</li>
+                     <li><strong>Optimización de Ficha:</strong> Perfil de Google Maps actualizado estratégicamente para captación de matrículas locales.</li>
+                     <li><strong>Modelo de Transferencia:</strong> Entrega de ecosistema digital listo para uso, otorgando total libertad de publicación e independencia al nido.</li>
+                   </ul>
+
+                 <div class="caso-enlaces">
+                     <a href="https://goo.gl" target="_blank" class="link-externo">Auditar "Pequeños Líderes" →</a>
+                     <a href="https://facebook.com" target="_blank" class="link-externo">Ver Red Social Principal →</a>
+                 </div>
+    
+    <div class="marca-media">                 
+        <img src="assets/img/clientes/pequenoslideres.png" class="marca-img" alt="Infraestructura Digital Pequeños Líderes">
+    </div>
+</div>
 
         </div>
     </section>
@@ -159,7 +209,6 @@
             <div class="footer-contact">
                 <h4>Contacto Directo</h4>
                 <a href="mailto:dgstudio.limanorte@gmail.com" class="contact-link">dgstudio.limanorte@gmail.com</a>
-                <!-- Reemplazo para la línea del teléfono en el Footer -->
                 <a href="https://wa.me/51991739746?text=Hola%20DG%20Studio,%20quiero%20cotizar%20un%20proyecto." 
                    target="_blank" 
                    class="contact-link whatsapp-link">
@@ -177,7 +226,7 @@
         </div>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="assets/js/app.js"></script>
     
 </body>
 </html>
